@@ -1,0 +1,20 @@
+uuid: f8081567-597a-4003-93ec-552e3856be2c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_tussenvoegsel
+  module:
+    - user
+id: user.user.field_tussenvoegsel
+field_name: field_tussenvoegsel
+entity_type: user
+bundle: user
+label: Tussenvoegsel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: df206711-c3e3-4a56-85c2-f86db2f472e6
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_age
+  module:
+    - datetime
+    - user
+id: user.user.field_age
+field_name: field_age
+entity_type: user
+bundle: user
+label: Age
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

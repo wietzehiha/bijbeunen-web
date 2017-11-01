@@ -1,0 +1,19 @@
+uuid: 5ac22db7-cc9b-4b37-a776-544a58535923
+langcode: nl
+status: true
+dependencies:
+  module:
+    - geolocation
+    - user
+id: user.field_woonplaats
+field_name: field_woonplaats
+entity_type: user
+type: geolocation
+settings: {  }
+module: geolocation
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

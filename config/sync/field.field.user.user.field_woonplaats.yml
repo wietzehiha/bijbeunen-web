@@ -1,0 +1,21 @@
+uuid: 200ab00a-7df6-4ef3-a153-bdf0eb6ecee6
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_woonplaats
+  module:
+    - geolocation
+    - user
+id: user.user.field_woonplaats
+field_name: field_woonplaats
+entity_type: user
+bundle: user
+label: Woonplaats
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

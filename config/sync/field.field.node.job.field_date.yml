@@ -1,0 +1,26 @@
+uuid: 95e3503f-c878-4296-bfaf-9d7ad5ce273c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.job
+  module:
+    - datetime_range
+id: node.job.field_date
+field_name: field_date
+entity_type: node
+bundle: job
+label: Date
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: now
+    default_end_date: now
+default_value_callback: ''
+settings: {  }
+field_type: daterange

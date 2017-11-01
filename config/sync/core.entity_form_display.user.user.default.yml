@@ -1,0 +1,98 @@
+uuid: fb9c46b5-b5e4-4140-9bea-2d6c64eb949f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_achternaam
+    - field.field.user.user.field_age
+    - field.field.user.user.field_geslacht
+    - field.field.user.user.field_telefoon
+    - field.field.user.user.field_tussenvoegsel
+    - field.field.user.user.field_voornaam
+    - field.field.user.user.field_woonplaats
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - datetime
+    - geolocation
+    - image
+    - telephone
+    - user
+_core:
+  default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+  contact:
+    weight: 5
+    region: content
+  field_achternaam:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_age:
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_geslacht:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_telefoon:
+    weight: 13
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_tussenvoegsel:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_voornaam:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_woonplaats:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
+  language:
+    weight: 0
+    region: content
+  timezone:
+    weight: 6
+    region: content
+  user_picture:
+    type: image_image
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    weight: -1
+    region: content
+hidden:
+  langcode: true

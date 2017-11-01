@@ -1,0 +1,21 @@
+uuid: feb27512-f884-48b6-ae4a-d90e68f5f862
+langcode: nl
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - hal
+    - serialization
+    - user
+id: user_registration
+plugin_id: user_registration
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - basic_auth
+    - cookie

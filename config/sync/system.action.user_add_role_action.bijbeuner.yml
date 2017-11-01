@@ -1,0 +1,14 @@
+uuid: 676c1bd8-acc9-4c62-a902-a53850d6b15c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.bijbeuner
+  module:
+    - user
+id: user_add_role_action.bijbeuner
+label: 'Voeg de rol bijbeuner toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: bijbeuner

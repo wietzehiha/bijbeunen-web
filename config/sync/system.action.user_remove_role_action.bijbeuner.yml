@@ -1,0 +1,14 @@
+uuid: 35ec737a-ec85-47fa-af78-2cdd7d3d760f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.bijbeuner
+  module:
+    - user
+id: user_remove_role_action.bijbeuner
+label: 'Verwijder de rol bijbeuner van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: bijbeuner

@@ -1,0 +1,17 @@
+uuid: 815a239c-9ad3-48d7-a860-8aa2c4f0c79b
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonieme gebruiker'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'restful post user_registration'
+  - 'search content'
+  - 'use text format restricted_html'

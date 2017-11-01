@@ -1,0 +1,21 @@
+uuid: b609dad7-2e57-42a5-b11e-3ad489a6dc4e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_geslacht
+  module:
+    - options
+    - user
+id: user.user.field_geslacht
+field_name: field_geslacht
+entity_type: user
+bundle: user
+label: Geslacht
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

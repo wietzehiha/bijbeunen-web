@@ -1,0 +1,22 @@
+uuid: 62369fd6-a8e8-465b-a4a9-8db6b9f5e34f
+langcode: nl
+status: true
+dependencies:
+  module:
+    - hal
+    - serialization
+    - user
+id: entity.user
+plugin_id: 'entity:user'
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+    - DELETE
+    - PATCH
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - cookie

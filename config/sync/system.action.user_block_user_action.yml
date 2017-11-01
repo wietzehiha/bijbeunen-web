@@ -1,0 +1,13 @@
+uuid: d62b3d87-f2f9-4866-8d26-b5c3fb4e60f1
+langcode: nl
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: DyypzTfThX10FFQw-399qPfEbLLyrhXgQrKPVsmAoJ4
+id: user_block_user_action
+label: 'De geselecteerde gebruiker(s) blokkeren'
+type: user
+plugin: user_block_user_action
+configuration: {  }

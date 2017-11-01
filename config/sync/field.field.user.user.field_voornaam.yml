@@ -1,0 +1,20 @@
+uuid: 045835b8-b0fb-4d40-a6c0-4b758680322d
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_voornaam
+  module:
+    - user
+id: user.user.field_voornaam
+field_name: field_voornaam
+entity_type: user
+bundle: user
+label: Voornaam
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

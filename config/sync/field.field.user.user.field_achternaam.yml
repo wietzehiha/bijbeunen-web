@@ -1,0 +1,20 @@
+uuid: 31c67d92-ec19-42f0-90c4-1e8dbbd8429d
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_achternaam
+  module:
+    - user
+id: user.user.field_achternaam
+field_name: field_achternaam
+entity_type: user
+bundle: user
+label: Achternaam
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

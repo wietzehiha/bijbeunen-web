@@ -1,0 +1,13 @@
+uuid: 04b774d0-9743-425b-8569-c663b1b16f5f
+langcode: nl
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: TSkg_gUZvk-39yXFrIFnKjsxuEzO0qBH82TdDxOMMr4
+id: comment_save_action
+label: 'Reactie opslaan'
+type: comment
+plugin: comment_save_action
+configuration: {  }

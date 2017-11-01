@@ -1,0 +1,58 @@
+uuid: db4e05c9-5808-48df-93c4-99ec3c28999b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.job.body
+    - field.field.node.job.field_date
+    - field.field.node.job.field_location
+    - field.field.node.job.field_price
+    - node.type.job
+  module:
+    - datetime_range
+    - geolocation
+    - text
+    - user
+id: node.job.default
+targetEntityType: node
+bundle: job
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date:
+    weight: 103
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_location:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
+  field_price:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
